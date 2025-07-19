@@ -1,0 +1,30 @@
+.header {
+  background-color: var(--color-primary);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin-left: clamp(0.5rem, -1.933rem + 13.33vw, 1rem);
+  margin-right: clamp(0.5rem, -1.933rem + 13.33vw, 1rem);
+  list-style: none;
+}
+
+.link {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: var(--color-accent);
+}
