@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #374151;
+  --color-secondary: #ffffff;
+  --color-background: #c5c5c5;
+  --color-accent: #13e17a;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
