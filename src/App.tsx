@@ -1,5 +1,12 @@
+import styles from "./App.module.css";
+import Footer from "../components/Footer/Footer";
+
 const App = () => {
-  return <h1>Alquiler de equipos de magnetoterapia en La Plata</h1>;
+  return (
+    <div className={styles.app}>
+      <Footer />
+    </div>
+  );
 };
 
 export default App;

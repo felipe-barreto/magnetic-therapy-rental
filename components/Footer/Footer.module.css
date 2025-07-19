@@ -1,0 +1,46 @@
+.footer {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background-color: var(--color-primary);
+}
+
+.text {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  text-wrap: balance;
+  color: var(--color-secondary);
+}
+
+.whatsappLink {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+}
+
+.whatsappLink:hover .number {
+  text-decoration: underline;
+}
+
+.whatsappLogo {
+  width: 1.5rem;
+}
+
+.number {
+  color: var(--color-secondary);
+}
+
+@media (max-width: 260px) {
+  .number {
+    width: 90px;
+  }
+}
