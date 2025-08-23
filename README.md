@@ -1,6 +1,6 @@
 # Aplicación web - Alquiler de equipos de magnetoterapia
 
-Esta es una aplicación web responsive creada para promocionar un servicio de alquiler de equipos de magnetoterapia. Cuenta con tres vistas (inicio, tipos de aplicadores y contacto/ubicación) y permite contactar por WhatsApp al proveedor para hacer consultas o coordinar el alquiler.
+Aplicación web responsive de un servicio de alquiler de equipos de magnetoterapia. Cuenta con tres vistas (inicio, tipos de aplicadores y contacto/ubicación) y permite contactar por WhatsApp al proveedor para hacer consultas o coordinar el alquiler.
 
 <br>
 
