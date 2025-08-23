@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import logo from "../../src/assets/whatsapp-logo.svg.webp";
+import logo from "../../src/assets/whatsapp-logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         href="https://wa.me/5492216377979?text=Quisiera consultar por el alquiler de un equipo"
         className={styles.whatsappLink}>
         <img src={logo} alt="Logo de WhatsApp" className={styles.whatsappLogo} />
-        <p className={styles.number}>+54 9 221 637 79 79</p>
+        <p className={styles.number}>+54 9 221 637-7979</p>
       </a>
     </footer>
   );
