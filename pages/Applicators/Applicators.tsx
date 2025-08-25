@@ -1,6 +1,6 @@
 import styles from "./Applicators.module.css";
-import coils from "../../src/assets/magnetic-therapy-coils.png";
-import tunnel from "../../src/assets/tunnel-applicator.png";
+import coils from "../../src/assets/magnetic-therapy-coils.jpg";
+import tunnel from "../../src/assets/tunnel-applicator.jpg";
 
 const Equipment = () => {
   return (

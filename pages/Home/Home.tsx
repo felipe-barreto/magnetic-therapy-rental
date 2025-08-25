@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
-import imageForLargeScreens from "../../src/assets/home-for-large-screens.png";
-import imageForSmallScreens from "../../src/assets/home-for-small-screens.png";
+import imageForLargeScreens from "../../src/assets/home-for-large-screens.jpg";
+import imageForSmallScreens from "../../src/assets/home-for-small-screens.jpg";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
