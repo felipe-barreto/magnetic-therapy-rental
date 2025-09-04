@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import logo from "../../src/assets/whatsapp-logo.png";
+import logo from "../../assets/whatsapp-logo.png";
 
 const Footer = () => {
   return (

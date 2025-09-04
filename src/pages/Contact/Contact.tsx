@@ -1,5 +1,5 @@
 import styles from "./Contact.module.css";
-import logo from "../../src/assets/whatsapp-logo.png";
+import logo from "../../assets/whatsapp-logo.png";
 
 const Contact = () => {
   return (

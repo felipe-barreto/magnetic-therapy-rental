@@ -1,10 +1,10 @@
 import styles from "./App.module.css";
 import { Navigate, Route, Routes } from "react-router-dom";
-import Header from "../components/Header/Header";
-import Home from "../pages/Home/Home";
-import Applicators from "../pages/Applicators/Applicators";
-import Contact from "../pages/Contact/Contact";
-import Footer from "../components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Home from "./pages/Home/Home";
+import Applicators from "./pages/Applicators/Applicators";
+import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
